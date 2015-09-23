@@ -1,0 +1,13 @@
+#ifndef UTILS_H_INCLUDED
+#define UTILS_H_INCLUDED
+
+#define TIME_NANSECOND			(1)
+#define TIME_MICROSECOND		(1000 * TIME_NANSECOND)
+#define TIME_MILLISECOND		(1000 * TIME_MICROSECOND)
+#define TIME_SECOND				(1000 * TIME_MILLISECOND)
+
+#ifndef UNUSED_ARG
+#define UNUSED_ARG(arg)  (void)arg
+#endif  /* UNUSED_ARG   */
+
+#endif	/* UTILS_H_INCLUDED */
