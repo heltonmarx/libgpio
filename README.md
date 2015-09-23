@@ -17,5 +17,5 @@ ln -sf libgpio.so.1 libgpio.so.1.0
 
 ```
 
-P.s.: don't forget to copy dynamic libary to rootfs when it is created.
+P.s.: don't forget to copy dynamic library to rootfs when it is created.
 Normally, the library directory is : `/usr/lib`.
